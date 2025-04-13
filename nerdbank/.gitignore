@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/vendor
+/public/vendor/node_modules/
 /.pnp
 .pnp.*
 .yarn/*
@@ -39,7 +41,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-vendor/
-/public/vendor/node_modules/
-node_modules/
+
 
