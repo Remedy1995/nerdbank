@@ -1,0 +1,43 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "23.7.0",
+    "npm": "8.15.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.10.0",
+    "next": "^15.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Remedy1995/job_bank.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Remedy1995/job_bank/issues"
+  },
+  "homepage": "https://github.com/Remedy1995/job_bank#readme",
+  "description": ""
+}

@@ -1,0 +1,166 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+    "title": "Transfers API",
+    "version": "1.0.0",
+    "description": "API for managing transfers"
+    },
+    "servers": [
+    {
+    "url": "https://nerdbank.onrender.com/api"
+    }
+    ],
+    "paths": {
+    "/user/create-pin": {
+    "post": {
+    "summary": "Set a new user PIN",
+    "description": "Sets a new PIN for the user if not already set.",
+    "operationId": "CreatePin",
+    "requestBody": {
+    "required": true,
+    "content": {
+    "application/json": {
+    "schema": {
+    "type": "object",
+    "required": [
+    "pin"
+    ],
+    "properties": {
+    "pin": {
+    "type": "string",
+    "example": "123456"
+    }
+    }
+    }
+    }
+    }
+    },
+    "responses": {
+    "201": {
+    "description": "PIN set successfully."
+    },
+    "400": {
+    "description": "Invalid PIN input or PIN already set."
+    },
+    "404": {
+    "description": "User not found."
+    },
+    "422": {
+    "description": "PIN is required or PIN length should be 6 digits."
+    },
+    "500": {
+    "description": "Server error occurred."
+    }
+    }
+    }
+    },
+    "/user/change-pin": {
+    "patch": {
+    "summary": "Change user PIN",
+    "description": "Changes an existing user's PIN.",
+    "operationId": "ChangePin",
+    "requestBody": {
+    "required": true,
+    "content": {
+    "application/json": {
+    "schema": {
+    "type": "object",
+    "required": [
+    "oldPin",
+    "newPin",
+    "confirmNewPin"
+    ],
+    "properties": {
+    "oldPin": {
+    "type": "string",
+    "example": "123456"
+    },
+    "newPin": {
+    "type": "string",
+    "example": "654321"
+    },
+    "confirmNewPin": {
+    "type": "string",
+    "example": "654321"
+    }
+    }
+    }
+    }
+    }
+    },
+    "responses": {
+    "200": {
+    "description": "PIN updated successfully."
+    },
+    "400": {
+    "description": "Invalid input or PIN mismatch."
+    },
+    "401": {
+    "description": "Incorrect old PIN."
+    },
+    "404": {
+    "description": "User not found."
+    },
+    "500": {
+    "description": "Server error occurred."
+    }
+    }
+    }
+    },
+    "/user/change-password": {
+    "patch": {
+    "summary": "Change user password",
+    "description": "Changes the user's password.",
+    "operationId": "ChangePassword",
+    "requestBody": {
+    "required": true,
+    "content": {
+    "application/json": {
+    "schema": {
+    "type": "object",
+    "required": [
+    "oldPassword",
+    "newPassword",
+    "confirmNewPassword"
+    ],
+    "properties": {
+    "oldPassword": {
+    "type": "string",
+    "example": "oldPassword123"
+    },
+    "newPassword": {
+    "type": "string",
+    "example": "newPassword456"
+    },
+    "confirmNewPassword": {
+    "type": "string",
+    "example": "newPassword456"
+    }
+    }
+    }
+    }
+    }
+    },
+    "responses": {
+    "200": {
+    "description": "Password updated successfully."
+    },
+    "400": {
+    "description": "Invalid input or passwords do not match."
+    },
+    "401": {
+    "description": "Incorrect old password."
+    },
+    "404": {
+    "description": "User not found."
+    },
+    "500": {
+    "description": "Server error occurred."
+    }
+    }
+    }
+    }
+    },
+    "components": {},
+    "tags": []
+    }
