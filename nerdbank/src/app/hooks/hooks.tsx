@@ -86,7 +86,7 @@ export const HandleLogout = () => {
 
   useEffect(() => {
     if (logout) {
-      router.push("/");
+      router.replace("/");
     }
   }, [logout, router]);
 
@@ -126,7 +126,7 @@ export const HandleLogout = () => {
             console.log(data)
             if(data.status === 401){
               //unauthorised bring user to signup screen
-              router.push('/')
+              router.replace('/')
               return;
             }
             setVisible(true)

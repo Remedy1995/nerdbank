@@ -1,7 +1,10 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/auth-login/page": "app/auth-login/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/client/dashboard/page": "app/client/dashboard/page.js",
+  "/auth-login/page": "app/auth-login/page.js",
   "/client/user-profile/page": "app/client/user-profile/page.js",
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/page": "app/page.js",
   "/client/payment-methods/page": "app/client/payment-methods/page.js"
 }
