@@ -1,0 +1,241 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/admin/account-success",
+      "regex": "^/admin/account\\-success(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/account\\-success(?:/)?$"
+    },
+    {
+      "page": "/admin/all-accounts",
+      "regex": "^/admin/all\\-accounts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/all\\-accounts(?:/)?$"
+    },
+    {
+      "page": "/admin/all-customers",
+      "regex": "^/admin/all\\-customers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/all\\-customers(?:/)?$"
+    },
+    {
+      "page": "/admin/all-external-transfers",
+      "regex": "^/admin/all\\-external\\-transfers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/all\\-external\\-transfers(?:/)?$"
+    },
+    {
+      "page": "/admin/all-self-transfers",
+      "regex": "^/admin/all\\-self\\-transfers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/all\\-self\\-transfers(?:/)?$"
+    },
+    {
+      "page": "/admin/confirm-transfer",
+      "regex": "^/admin/confirm\\-transfer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/confirm\\-transfer(?:/)?$"
+    },
+    {
+      "page": "/admin/create-account",
+      "regex": "^/admin/create\\-account(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/create\\-account(?:/)?$"
+    },
+    {
+      "page": "/admin/create-account-next-step",
+      "regex": "^/admin/create\\-account\\-next\\-step(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/create\\-account\\-next\\-step(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard",
+      "regex": "^/admin/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard(?:/)?$"
+    },
+    {
+      "page": "/admin/payment-methods",
+      "regex": "^/admin/payment\\-methods(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/payment\\-methods(?:/)?$"
+    },
+    {
+      "page": "/admin/success-transfer",
+      "regex": "^/admin/success\\-transfer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/success\\-transfer(?:/)?$"
+    },
+    {
+      "page": "/admin/transfer-money",
+      "regex": "^/admin/transfer\\-money(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/transfer\\-money(?:/)?$"
+    },
+    {
+      "page": "/admin/update-account",
+      "regex": "^/admin/update\\-account(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/update\\-account(?:/)?$"
+    },
+    {
+      "page": "/admin/user-profile",
+      "regex": "^/admin/user\\-profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/user\\-profile(?:/)?$"
+    },
+    {
+      "page": "/admin/user-settings",
+      "regex": "^/admin/user\\-settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/user\\-settings(?:/)?$"
+    },
+    {
+      "page": "/admin/verify-pin",
+      "regex": "^/admin/verify\\-pin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/verify\\-pin(?:/)?$"
+    },
+    {
+      "page": "/auth-login",
+      "regex": "^/auth\\-login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth\\-login(?:/)?$"
+    },
+    {
+      "page": "/client/all-external-transfers",
+      "regex": "^/client/all\\-external\\-transfers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/all\\-external\\-transfers(?:/)?$"
+    },
+    {
+      "page": "/client/all-self-transfers",
+      "regex": "^/client/all\\-self\\-transfers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/all\\-self\\-transfers(?:/)?$"
+    },
+    {
+      "page": "/client/confirm-transfer",
+      "regex": "^/client/confirm\\-transfer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/confirm\\-transfer(?:/)?$"
+    },
+    {
+      "page": "/client/dashboard",
+      "regex": "^/client/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dashboard(?:/)?$"
+    },
+    {
+      "page": "/client/payment-methods",
+      "regex": "^/client/payment\\-methods(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/payment\\-methods(?:/)?$"
+    },
+    {
+      "page": "/client/self-transfers",
+      "regex": "^/client/self\\-transfers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/self\\-transfers(?:/)?$"
+    },
+    {
+      "page": "/client/success-transfer",
+      "regex": "^/client/success\\-transfer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/success\\-transfer(?:/)?$"
+    },
+    {
+      "page": "/client/transaction-history",
+      "regex": "^/client/transaction\\-history(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/transaction\\-history(?:/)?$"
+    },
+    {
+      "page": "/client/transfer-money",
+      "regex": "^/client/transfer\\-money(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/transfer\\-money(?:/)?$"
+    },
+    {
+      "page": "/client/user-profile",
+      "regex": "^/client/user\\-profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/user\\-profile(?:/)?$"
+    },
+    {
+      "page": "/client/user-settings",
+      "regex": "^/client/user\\-settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/user\\-settings(?:/)?$"
+    },
+    {
+      "page": "/client/verify-pin",
+      "regex": "^/client/verify\\-pin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/verify\\-pin(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/unauthorised",
+      "regex": "^/unauthorised(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/unauthorised(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/:path*",
+      "regex": "^/api(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    }
+  ]
+}

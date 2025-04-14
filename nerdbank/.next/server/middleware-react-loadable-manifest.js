@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST='{"app/layout.tsx -> bootstrap/dist/js/bootstrap.bundle.min.js":{"id":8118,"files":["static/chunks/5737.26f3c6fba6134386.js"]}}';
